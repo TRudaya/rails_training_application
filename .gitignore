@@ -21,3 +21,6 @@
 /yarn-error.log
 
 .byebug_history
+Будет удалено .idea/inspectionProfiles/
+Будет удалено pids/
+.idea/workspace.xml
