@@ -4,16 +4,4 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "Hello World"
   end
-
-  def hola
-    render html: "Hola, mundo!"
-  end
-
-  def hola_non_ascii
-    render html: "¡Hola, mundo!"
-  end
-
-  def goodbye
-    render html: "Goodbye, world!"
-  end
 end
