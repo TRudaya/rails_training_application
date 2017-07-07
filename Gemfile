@@ -16,13 +16,14 @@ gem 'jbuilder', '~> 2.5'
 
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3', '1.3.13'
+
+  gem 'byebug', '~> 9.0', '>= 9.0.6'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
 
 group :development do
-  #gem 'sqlite3', '1.3.13'
 
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
@@ -31,7 +32,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
